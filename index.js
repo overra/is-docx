@@ -1,11 +1,7 @@
 'use strict';
 
-var marker = Buffer('PK\x03\x04\x14\x00\x06\x00');
+var ooxmlType = require('ooxml-type');
 
 module.exports = function (buffer) {
-  if (Buffer.isBuffer(buffer)) {
-    return buffer.slice(0,8).equals(marker);
-  }
-
-  return false;
+  return ooxmlType(buffer) === 'docx';
 };
