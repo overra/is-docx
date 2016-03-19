@@ -1,0 +1,24 @@
+{
+  "name": "is-docx",
+  "version": "0.0.1",
+  "description": "Detect docx file type from buffer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overra/is-docx.git"
+  },
+  "keywords": [
+    "detect",
+    "docx",
+    "filetype"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "Adam Snodgrass <overra@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/overra/is-docx/issues"
+  },
+  "homepage": "https://github.com/overra/is-docx#readme"
+}
