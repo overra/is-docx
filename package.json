@@ -1,6 +1,6 @@
 {
   "name": "is-docx",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Detect docx file type from buffer",
   "main": "index.js",
   "repository": {
