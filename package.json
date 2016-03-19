@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/overra/is-docx/issues"
   },
-  "homepage": "https://github.com/overra/is-docx#readme"
+  "homepage": "https://github.com/overra/is-docx#readme",
+  "dependencies": {
+    "ooxml-type": "0.0.1"
+  }
 }
