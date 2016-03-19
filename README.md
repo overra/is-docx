@@ -1,7 +1,7 @@
 # is-docx
 Detect docx file type from buffer.  
 
-Checks for `'PK\x03\x04\x14\x00\x06\x00'` at the start of the file buffer.
+Checks for `'PK\x03\x04\x14\x00\x06\x00'` at the start of a file buffer.
 
 ## Usage
 
